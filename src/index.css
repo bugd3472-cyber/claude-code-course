@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+}
+
+/* Prism.js theme override for light mode */
+code[class*="language-"],
+pre[class*="language-"] {
+  font-size: 14px;
+  border-radius: 12px;
+}
